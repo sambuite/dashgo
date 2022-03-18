@@ -25,6 +25,7 @@ const options: ApexCharts.ApexOptions = {
   },
   stroke: {
     curve: 'smooth',
+    colors: [theme.colors.pink[500]],
   },
   tooltip: {
     enabled: false,
@@ -50,6 +51,7 @@ const options: ApexCharts.ApexOptions = {
   fill: {
     opacity: 0.3,
     type: 'gradient',
+    colors: [theme.colors.pink[500]],
     gradient: {
       shade: 'dark',
       opacityFrom: 0.7,
