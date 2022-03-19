@@ -4,7 +4,7 @@ import { PaginationItem } from './PaginationItem';
 export function Pagination() {
   return (
     <Stack
-      direction='row'
+      direction={['column', 'row']}
       spacing='6'
       mt='8'
       justify='space-between'
@@ -14,7 +14,7 @@ export function Pagination() {
         <strong>0</strong> - <strong>10</strong> de <strong>100</strong>
       </Box>
       <Stack direction='row' spacing='2'>
-        {Array.from({ length: 4 }).map((_, index) => (
+        {Array.from({ length: 7 }).map((_, index) => (
           <PaginationItem key={index} number={index} isCurrent={index === 1} />
         ))}
       </Stack>
