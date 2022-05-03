@@ -34,9 +34,10 @@
 <em>This front-end features the latest tools and practices in web development!</em>
 
 - **NextJS** — A React Framework (SSR and SSG)
+- **Typescript** — A Javascript superset
+- **Chakra UI** — A component library
 - **Axios** — API requests
 - **React query** — A data-fetching library
-- **Typescript** — A Javascript superset
 - **React Apexcharts** — A chart library
 - **React hook form** — A library to deal with forms
 - **Yup** — Validation library
