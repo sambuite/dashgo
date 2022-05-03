@@ -35,6 +35,7 @@
 
 - **NextJS** — A React Framework (SSR and SSG)
 - **Axios** — API requests
+- **React query** — A data-fetching library
 - **Typescript** — A Javascript superset
 - **React Apexcharts** — A chart library
 - **React hook form** — A library to deal with forms
